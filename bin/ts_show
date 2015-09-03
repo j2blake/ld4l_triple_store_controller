@@ -1,0 +1,24 @@
+#! /usr/bin/env ruby
+
+=begin rdoc
+--------------------------------------------------------------------------------
+
+Show the status of the current triple_store (if any). 
+
+--------------------------------------------------------------------------------
+=end
+
+#require 'rubygems'
+$LOAD_PATH.unshift File.expand_path('/Users/jeb228/LD4L/projects/triple_store_drivers/lib')
+require 'triple_store_drivers'
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'triple_store_controller'
+
+#
+# ---------------------------------------------------------
+# MAIN ROUTINE
+# ---------------------------------------------------------
+#
+
+TripleStoreController::Show.new.run
