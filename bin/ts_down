@@ -9,9 +9,6 @@ If the currently-selected triple store is running, stop it.
 =end
 
 #require 'rubygems'
-$LOAD_PATH.unshift File.expand_path('/Users/jeb228/LD4L/projects/triple_store_drivers/lib')
-require 'triple_store_drivers'
-
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'triple_store_controller'
 

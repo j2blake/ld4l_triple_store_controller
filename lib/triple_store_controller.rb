@@ -1,3 +1,6 @@
+$LOAD_PATH.unshift File.expand_path('../../../triple_store_drivers/lib', __FILE__)
+require 'triple_store_drivers'
+
 require "triple_store_controller/version"
 require 'triple_store_controller/common'
 require 'triple_store_controller/selector'
