@@ -9,6 +9,7 @@ require 'triple_store_controller/down'
 require 'triple_store_controller/set'
 require 'triple_store_controller/show'
 require 'triple_store_controller/clear'
+require 'triple_store_controller/create'
 
 
 module TripleStoreController
